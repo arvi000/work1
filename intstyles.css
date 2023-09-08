@@ -1,0 +1,386 @@
+.sidebar {
+    width: 3mm; 
+    height: 100%;
+    background-color: white; 
+    color: white; 
+    position: fixed; 
+    top:6%; 
+    left: 0; 
+    padding: 30px; 
+}
+
+
+.sidebar-content {
+    margin-right: 30px;
+    padding-bottom: 2mm;
+    margin-top: -5mm;
+}
+body{
+    background-color: rgb(235, 231, 231);
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.btline{
+    height:36px;
+    margin-left:-695px;
+    position:absolute;
+    border:1px solid gray;
+    margin-top: 5px;
+}
+.srch-button{
+    width:22mm;
+    height:8mm;
+    background-color: rgb(247, 6, 118);
+    position: absolute;
+    color:white;
+    margin-left:136mm;
+    border:none;
+    margin-top:0.2mm;
+    border-radius:3px;
+}
+
+
+.header {
+    height: 11.5mm; 
+    width:100%;
+    background-color: #fefcfc; 
+    margin-top: -7px;
+    margin-left:-7px;
+    margin-right:0;
+    z-index: -3;
+    text-align: center; 
+    line-height: 300cm; 
+}
+.left{
+    float: left;
+    margin-right: 20px; 
+    
+    
+}
+.left1{
+    position: absolute;
+    width:30px;
+    height:30px;
+    margin-left:-685px;
+    margin-top:2mm;
+
+}
+.header .todo{
+    position: absolute;
+    z-index: 10;
+    /* background-color: black; */
+    transform: translate(200px);
+    /* color: black; */
+    /* width:10%; */
+    height:10%;
+}
+
+.right{
+    float: right;
+    margin-left: 30px;
+    margin-top:2mm;
+}
+.sidebarleft{
+    margin-top: 2mm;
+    width:35px
+    
+}
+.menu{
+    height:20mm;
+    width:100%;
+    margin-right:30px;
+    border-bottom: 2px,solid,rgb(5, 5, 5);
+    background-color: #c7c4c4;
+    margin-top:-3px;
+    
+}
+.plusbar{
+    height:7mm;
+    margin-left:90px;
+    margin-top:7mm;
+    position: absolute;
+    width:40mm;
+    background-color: rgb(205, 198, 198);
+    
+
+}
+.black-plus{
+   
+    background-color: black;
+    border:5px solid black;
+    border-radius: 3px;  
+    position: absolute;
+    margin-top:6px;
+    margin-left:-60px;
+    margin-bottom:3px;
+    margin-right:25px;
+
+}
+.bold{
+    margin-left:15px;
+    margin-top:8px;
+    font-weight: bold;
+    margin-right:-18px;
+}
+
+.foot{
+    height: 16mm; 
+    width:100%;
+    background-color: white;
+    color:black;
+    margin-top: 105px;
+    margin-left:-7px;
+    margin-right:0;
+    
+    
+
+}
+.foottext{
+    position: absolute;
+    font-weight:600;
+    margin-left: 500px;
+    margin-top:25px;
+    
+    
+}
+.first-box
+{
+    width:130px;
+    height:30px;
+    border:1px solid rgb(193, 186, 186);
+    margin-top: -50px;
+    margin-left: 80px;
+    text-align: center;
+    background-color: rgb(201, 197, 197);
+}
+.sec-box0{
+    width:600px;
+    height:30px;
+   background-color: white;
+   margin-left:250px;
+   margin-top:-31px;
+   border-radius: 5px;
+   border:1px solid white ;
+}
+.sec-box{
+    position:absolute;
+    width:600px;
+    height:29px;
+    border-radius: 5px;
+    border:1px solid white ;
+}
+
+.btline1{
+    height:39px;
+    margin-left:220px;
+    position:fixed;
+    border:1px solid gray;
+    margin-top: -32px;
+}
+.month{
+    width:150px;
+    height:32px;
+    background-color: rgb(254, 252, 252);
+    position: absolute;
+    margin-left: 640px;
+    border-radius:4px;
+
+}
+.btline4{
+    height:39px;
+    margin-left:800px;
+    position:fixed;
+    border:1px solid gray;
+    margin-top: -2px;
+}
+.lentext0{
+    margin-left: 810px;
+    position: absolute;
+    text-align: center;
+    margin-top:7px;
+}
+.calender{
+    width:32px;
+    height:32px;
+    border-radius: 3px;
+}
+.month-selection{
+    margin-left:33px;
+    margin-top:-36px;
+    position: absolute;
+}
+#month-select{
+    height:32px;
+    width:117px;
+    outline:none;
+    border:none;
+    border-radius:3px;
+    border-color: #fefcfc;
+    position: absolute;
+    
+}
+.btline2{
+    height:25px;
+    margin-left:37px;
+    position:fixed;
+    border:3px solid rgb(242, 10, 10);
+    margin-top: -32px;
+    border-radius: 3px;
+}
+.dotline{
+    height:130px;
+    border-right:2px dashed gray;
+    margin-left:984px;
+    left:-20px;
+    margin-top: -111px;
+    position: absolute;
+    
+}
+.kuttyimage{
+    height:15px;
+    width:15px;
+    margin-left: 20px;
+    margin-top:5px;
+}
+.dotline1{
+    height:60px;
+    border-right: 2px dashed gray;
+    margin-top: -110px;
+    margin-right:42px;
+    
+
+}
+
+.kuttyimages{
+    width:20px;
+    height:20px;
+    margin-top: 7px;
+}
+.kuttyimages1{
+    width:20px;
+    height:20px;
+    margin-top: 7px;
+    margin-left: 150px;
+    position: fixed;
+}
+.kuttyimages1a{
+    width:20px;
+    height:20px;
+    margin-top: 7px;
+    margin-left: 138px;
+}
+
+.para{
+    color:black;
+}
+.ovb{
+    height:22px;
+    width:130px;
+    background-color: rgb(219, 218, 218);
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 268px;
+    text-align: center;
+    color:white;
+
+}
+.ovbtext{
+    margin-left: 260px;
+    margin-top:-36px;
+    z-index: 1;
+    position: absolute;
+
+}
+.fs1{
+    height:130px;
+    width:1000px;
+    margin-top:40px;
+    margin-left:120px;
+    background-color: white;
+    border-radius: 10px;
+    position:relative;
+    
+}
+.fs2{
+    height:130px;
+    width:1000px;
+    margin-top:40px;
+    margin-left:120px;
+    background-color: white;
+    border-radius: 10px;
+    position:relative;
+    
+
+}
+.fs3{
+    height:130px;
+    width:1000px;
+    margin-top:40px;
+    margin-left:120px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 2px solid white;
+    position:relative;
+
+    
+}
+.fs1a{
+    height:130px;
+    width:300px;
+    background-color: white;
+    margin-top: -111px;
+    border-radius: 10px;
+    margin-left:985px;
+    position: relative;
+}
+.mafia{
+    background-color: rgb(232, 232, 232);
+    
+}
+.mafia1{
+    background-color: rgb(232, 232, 232);
+    color:rgb(245, 4, 112)
+    
+}
+.last{
+    margin-top:-85px;
+    margin-left:-190px;
+    
+}
+.last1{
+    margin-top:-85px;
+    margin-left:-190px;
+    color:green;
+    
+}
+.atlast{
+    background-color: rgb(214, 207, 207);
+}
+
+.c1{
+    width:15px;
+    height:15px;
+    margin-right: 10px;
+
+}
+.zero{
+    margin-left: 20px;
+    
+
+}
+.zero1{
+    color:green;
+}
+.fs1p{
+    margin-top: px;
+    margin-left: 50px;
+}
+.one{
+    margin-top: 2px;
+}
+#to{
+z-index:7;
+color: green;
+margin-top: -30px;
+margin-right: 50px;
+}
