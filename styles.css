@@ -85,7 +85,7 @@ body{
     width:35px
     
 }
-.menu{
+.menubar{
     height:20mm;
     width:100%;
     margin-right:30px;
@@ -123,7 +123,7 @@ body{
     margin-right:-18px;
 }
 
-.foot{
+.footer{
     height: 16mm; 
     width:100%;
     background-color: white;
@@ -153,7 +153,7 @@ body{
     text-align: center;
     background-color: rgb(201, 197, 197);
 }
-.sec-box0{
+.srchbox0{
     width:600px;
     height:30px;
    background-color: white;
@@ -162,7 +162,7 @@ body{
    border-radius: 5px;
    border:1px solid white ;
 }
-.sec-box{
+.srchbox{
     position:absolute;
     width:600px;
     height:29px;
@@ -193,7 +193,7 @@ body{
     border:1px solid gray;
     margin-top: -2px;
 }
-.lentext0{
+.heddowntxt{
     margin-left: 810px;
     position: absolute;
     text-align: center;
@@ -236,7 +236,7 @@ body{
     position: absolute;
     
 }
-.kuttyimage{
+.smollimg{
     height:15px;
     width:15px;
     margin-left: 20px;
@@ -251,26 +251,26 @@ body{
 
 }
 
-.kuttyimages{
+.smallimg{
     width:20px;
     height:20px;
     margin-top: 7px;
 }
-.kuttyimages1{
+.smallimg1{
     width:20px;
     height:20px;
     margin-top: 7px;
     margin-left: 150px;
     position: fixed;
 }
-.kuttyimages1a{
+.moresmallimg1{
     width:20px;
     height:20px;
     margin-top: 7px;
     margin-left: 138px;
 }
 
-.para{
+.paratxt{
     color:black;
 }
 .ovb{
@@ -291,7 +291,7 @@ body{
     position: absolute;
 
 }
-.fs1{
+.blck1{
     height:130px;
     width:1000px;
     margin-top:40px;
@@ -301,7 +301,7 @@ body{
     position:relative;
     
 }
-.fs2{
+.blck2{
     height:130px;
     width:1000px;
     margin-top:40px;
@@ -312,7 +312,7 @@ body{
     
 
 }
-.fs3{
+.blck3{
     height:130px;
     width:1000px;
     margin-top:40px;
@@ -324,7 +324,7 @@ body{
 
     
 }
-.fs1a{
+.sidepanel{
     height:130px;
     width:300px;
     background-color: white;
@@ -333,11 +333,11 @@ body{
     margin-left:985px;
     position: relative;
 }
-.mafia{
+.box{
     background-color: rgb(232, 232, 232);
     
 }
-.mafia1{
+.box1{
     background-color: rgb(232, 232, 232);
     color:rgb(245, 4, 112)
     
@@ -353,11 +353,11 @@ body{
     color:green;
     
 }
-.atlast{
+.last-box{
     background-color: rgb(214, 207, 207);
 }
 
-.c1{
+.cls1{
     width:15px;
     height:15px;
     margin-right: 10px;
@@ -371,14 +371,15 @@ body{
 .zero1{
     color:green;
 }
-.fs1p{
-    margin-top: px;
+.mainpanel{
+    margin-top: 1px;
     margin-left: 50px;
+    
 }
 .one{
     margin-top: 2px;
 }
-#to{
+#tododo{
 z-index:7;
 color: green;
 margin-top: -30px;
